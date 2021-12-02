@@ -4,23 +4,7 @@
 <body>
     <p id="p1">Hello World!</p>
     <script>
-        var url = "https://thingproxy.freeboard.io/fetch/https://www.scu.edu/apps/ws/courseavail/search/4320/ugrad";
-
-var xhr = new XMLHttpRequest();
-xhr.open("POST", url);
-
-xhr.setRequestHeader("accept", "*/*");
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-xhr.onreadystatechange = function () {
-   if (xhr.readyState === 4) {
-      console.log(xhr.status);
-      console.log(xhr.responseText);
-   }};
-
-var data = "newcore=I_AW&newcore2=F_MATH";
-
-xhr.send(data);
+       
 
 
 
